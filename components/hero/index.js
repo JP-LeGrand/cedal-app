@@ -18,14 +18,13 @@ const Hero =() => {
                     <div className="col col-xs-6 col-lg-6">
                         <div className="wpo-hero-section-text">
                             <div className="wpo-hero-title-top">
-                                <span>Help The Poor Children</span>
+                                <span>Empowering Lives, Transforming Futures</span>
                             </div>
                             <div className="wpo-hero-title">
-                                <h2>Your Marcy Can Change Someone’s Life</h2>
+                                <h2>Join Us in Creating a World Where Every Individual Thrives</h2>
                             </div>
                             <div className="wpo-hero-subtitle">
-                                <p>We help local nonprofits access the funding, tools, training, and support they need
-                                    to become more.</p>
+                                <p>We are on a mission to empower lives and transform futures through innovative programs that leave a lasting impact.</p>
                             </div>
                             <div className="btns">
                                 <Link href="/about" className="btn theme-btn-s2">Get Started</Link>
