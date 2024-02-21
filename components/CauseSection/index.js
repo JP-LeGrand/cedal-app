@@ -15,10 +15,9 @@ const CauseSection = (props) => {
                 <div className="row justify-content-center">
                     <div className="col-lg-6">
                         <div className="wpo-section-title">
-                            <span>We Love To Help Poor</span>
-                            <h2>Our Featured Campaigns</h2>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form,</p>
+                            <span>Our Causes</span>
+                            <h2>Empowering Youth, Building Futures</h2>
+                            <p>Explore our impactful causes aimed at empowering disadvantaged youth and creating opportunities for a brighter tomorrow. Join us in supporting these initiatives and making a difference in the lives of young individuals in Johannesburg.</p>
                         </div>
                     </div>
                 </div>

@@ -34,7 +34,7 @@ const CauseSidebar = (props) => {
                 <div className="widget recent-post-widget">
                     <h3>Related Posts</h3>
                     <div className="posts">
-                        {Causes.slice(0,4).map((Cause, citem) => (
+                        {Causes.slice(0,3).map((Cause, citem) => (
                             <div className="post" key={citem}>
                                 <div className="img-holder">
                                     <Image src={Cause.cImg} alt=""/>

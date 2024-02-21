@@ -83,9 +83,10 @@ const Services = [
     {
         id: '5',
         fIcon1:'flaticon-eco-light',
-        title:'Re-integration of girls and young women that were left out of the education and economic system',
+        title:'Gender equality and women empowerment',
         slug:'Women-Equality',
-        description:'CEDAL creates opportunities for them to have access to training and as a result, make autonomous work choices outside the household.',        simg1:seimg,
+        description:'CEDAL creates opportunities for them to have access to training and as a result, make autonomous work choices outside the household.',
+        simg1:seimg,
         simg2:wimg1,
         simg3:wimg2,
     },

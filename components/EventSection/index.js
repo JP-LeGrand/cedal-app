@@ -15,9 +15,8 @@ const EventSection = (props) => {
                     <div className="col-lg-6">
                         <div className="wpo-section-title">
                             <span>Events</span>
-                            <h2>Fundraising Events</h2>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form,</p>
+                            <h2>Support Our Cause through Fundraising Events</h2>
+                            <p>Discover the power of community in creating positive change. Our fundraising events are your chance to support disadvantaged youth while connecting with like-minded individuals. Be part of something meaningful. Join us at our upcoming events and make a difference today.</p>
                         </div>
                     </div>
                 </div>
@@ -34,7 +33,7 @@ const EventSection = (props) => {
                                             <div className="wpo-event-text-top">
                                                 <span>{event.date}</span>
                                                 <h2><Link onClick={ClickHandler} href='/event-single/[slug]' as={`/event-single/${event.slug}`}>{event.eTitle}</Link></h2>
-                                                <p>{event.dec}</p>
+                                                <p>{event.subTitle}</p>
                                             </div>
                                         </div>
                                     </div>

@@ -24,11 +24,11 @@ const HomePage = (props) => {
             <Service Fclass={'wpo-features-section-s2'} vclassClass={'v1'}/>
             <About/>
             <CauseSection/>
-            <TeamSection/>
-            <Testimonial/>
+            {/* <TeamSection/> */}
+            {/* <Testimonial/> */}
             <CtaSection vImg={vimg} cTitle={'Lets Chenge The World With Humanity'}/>
             <EventSection/>
-            <BlogSection/>
+            {/* <BlogSection/> */}
             <PartnerSection/>
             <Footer/>
             <Scrollbar />
