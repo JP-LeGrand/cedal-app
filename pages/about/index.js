@@ -18,7 +18,7 @@ const AboutPage =() => {
         <Fragment>
             <Navbar Logo={Logo}/>
             <PageTitle pageTitle={'About Us'} pagesub={'About'}/> 
-            <VideoSec/>
+            {/* <VideoSec/> */}
             <Service Fclass={'wpo-features-section-s2'}/>
             <AboutS2/>
             <FunFact/>
