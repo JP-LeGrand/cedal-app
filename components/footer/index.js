@@ -53,7 +53,6 @@ const Footer = (props) =>{
                             <ul>
                                 <li><Link onClick={ClickHandler} href="/about">About Us</Link></li>
                                 <li><Link onClick={ClickHandler} href="/cause">Causes</Link></li>
-                                <li><Link onClick={ClickHandler} href="/blog">Latest News</Link></li>
                                 <li><Link onClick={ClickHandler} href="/contact">Contact us</Link></li>
                                 <li><Link onClick={ClickHandler} href="/event">Events</Link></li>
                             </ul>
@@ -65,11 +64,11 @@ const Footer = (props) =>{
                                 <h3>Contact </h3>
                             </div>
                             <div className="contact-ft">
-                                <p>Would you have any enquiries.Please feel free to contuct us</p>
+                                <p>Would you have any enquiries. Please feel free to contuct us</p>
                                 <ul>
                                     <li><i className="fi flaticon-mail"></i>info@cedal.org.co.za</li>
-                                    <li><i className="fi flaticon-phone-call"></i>+888 (123) 869523</li>
-                                    <li><i className="fi flaticon-location"></i>New York – 1075 Firs Avenue</li>
+                                    <li><i className="fi flaticon-phone-call"></i>+27 (63) 619 0510</li>
+                                    <li><i className="fi flaticon-location"></i>Johannesburg – 272 Le Roux Avenue</li>
                                 </ul>
                             </div>
                         </div>

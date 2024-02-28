@@ -18,7 +18,7 @@ const VideoSec = (props) => {
                                     <VideoModal/>
                                 </div>
                             </div>
-                            <h2>See what we do for the <span>poor people and the children</span></h2>
+                            <h2>Empowering Youth, <span>Transforming Futures.</span></h2>
                         </div>
                     </div>
                 </div>

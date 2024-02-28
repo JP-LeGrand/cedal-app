@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import Navbar2 from '../../components/Navbar2';
+import Navbar from '../../components/Navbar';
 import PageTitle from '../../components/pagetitle'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
@@ -9,7 +9,7 @@ import EventSection from '../../components/EventSection';
 const EventPage =() => {
     return(
         <Fragment>
-            <Navbar2 Logo={Logo}/>
+            <Navbar Logo={Logo}/>
             <PageTitle pageTitle={'Events'} pagesub={'Events'}/> 
             <EventSection evCLass={'section-padding'}/>
             <Footer/>

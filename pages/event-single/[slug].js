@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { useRouter } from 'next/router'
 import Events from '../../api/event'
-import Navbar2 from '../../components/Navbar2';
+import Navbar from '../../components/Navbar';
 import PageTitle from '../../components/pagetitle'
 import Scrollbar from '../../components/scrollbar'
 import EventTabs from './alltab'
@@ -20,7 +20,7 @@ const TeamSinglePage = (props) => {
 
     return (
         <Fragment>
-            <Navbar2 Logo={Logo} />
+            <Navbar Logo={Logo} />
             <PageTitle pageTitle={eventDetails?.eTitle} pagesub={'Case Single'} />
             <div className="wpo-event-details-area section-padding">
                 <div className="container">

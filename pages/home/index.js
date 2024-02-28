@@ -6,13 +6,10 @@ import Hero from '../../components/hero';
 import Navbar from '../../components/Navbar';
 import Scrollbar from '../../components/scrollbar';
 import Service from '../../components/Service';
-import TeamSection from '../../components/TeamSection';
-import Testimonial from '../../components/Testimonial';
 import CtaSection from '../../components/ctaSection';
 import EventSection from '../../components/EventSection';
 import Logo from '/public/images/cedal/CedalLogo.png'
 import vimg from '/public/images/volunteer.png'
-import BlogSection from '../../components/BlogSection';
 import PartnerSection from '../../components/PartnerSection';
 
 const HomePage = (props) => {
@@ -24,11 +21,8 @@ const HomePage = (props) => {
             <Service Fclass={'wpo-features-section-s2'} vclassClass={'v1'}/>
             <About/>
             <CauseSection/>
-            {/* <TeamSection/> */}
-            {/* <Testimonial/> */}
             <CtaSection vImg={vimg} cTitle={'Lets Chenge The World With Humanity'}/>
             <EventSection/>
-            {/* <BlogSection/> */}
             <PartnerSection/>
             <Footer/>
             <Scrollbar />

@@ -20,7 +20,7 @@ const Contactpage = () => {
                                         </div>
                                         <div className="office-info-text">
                                             <h2>Address</h2>
-                                            <p>7 Green Lake Street Crawfordsville, IN 47933</p>
+                                            <p>272 Le Roux Avenue Vorna Valley, Midrand 1685</p>
                                         </div>
                                     </div>
                                 </div> 
@@ -46,8 +46,7 @@ const Contactpage = () => {
                                         </div>
                                         <div className="office-info-text">
                                             <h2>Call Now</h2>
-                                            <p>+1 800 123 456 789</p>
-                                            <p>+1 800 123 654 987</p>
+                                            <p>+27 (63) 619 0510</p>
                                         </div>
                                     </div>
                                 </div> 

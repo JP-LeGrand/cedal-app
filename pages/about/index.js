@@ -6,10 +6,9 @@ import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Logo from '/public/images/cedal/CedalLogo.png'
 import Service from '../../components/Service';
-import AboutS2 from '../../components/AboutS2';
+import About from '../../components/about';
 import FunFact from '../../components/FunFact';
 import CauseSection from '../../components/CauseSection';
-import TeamSection from '../../components/TeamSection';
 import PartnerSection from '../../components/PartnerSection';
 
 
@@ -18,12 +17,11 @@ const AboutPage =() => {
         <Fragment>
             <Navbar Logo={Logo}/>
             <PageTitle pageTitle={'About Us'} pagesub={'About'}/> 
-            {/* <VideoSec/> */}
+            <VideoSec/>
             <Service Fclass={'wpo-features-section-s2'}/>
-            <AboutS2/>
+            <About/>
             <FunFact/>
             <CauseSection/>
-            <TeamSection/>
             <PartnerSection tNone={'title-none'}/>
             <Footer/>
             <Scrollbar/>

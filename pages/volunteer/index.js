@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import Navbar2 from '../../components/Navbar2';
+import Navbar from '../../components/Navbar';
 import PageTitle from '../../components/pagetitle'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
@@ -17,7 +17,7 @@ const VolunteerPage =() => {
 
     return(
         <Fragment>
-            <Navbar2 Logo={Logo}/>
+            <Navbar Logo={Logo}/>
             <PageTitle pageTitle={'Volunteer'} pagesub={'Volunteer'}/> 
             <div className="volunteer-area">
                 <div className="volunteer-wrap">
@@ -77,7 +77,7 @@ const VolunteerPage =() => {
                     </div>
                 </div>
             </div>
-            <TeamSection/>
+            {/* <TeamSection/> */}
             <Footer/>
             <Scrollbar/>
         </Fragment>
