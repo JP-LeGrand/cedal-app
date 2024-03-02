@@ -31,14 +31,6 @@ jobs:
         # To fix: /home/site/wwwroot/node_modules/.bin/next: 1: ../next/dist/bin/next: not found
         run: zip next.zip ./* .next .env -qr
 
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: 'Production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-
-    steps:
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
