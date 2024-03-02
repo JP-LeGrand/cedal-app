@@ -53,4 +53,4 @@ jobs:
           app-name: 'cedal'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_240093B4DAB14D21ADFF91F02CC2F2EC }}
-          package: .next
+          package: .
