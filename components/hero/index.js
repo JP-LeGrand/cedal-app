@@ -7,9 +7,6 @@ import hero1 from '/public/images/slider/right-img2.jpg'
 import hero2 from '/public/images/slider/s.png'
 import hero3 from '/public/images/slider/right-img.jpg'
 
-
-
-
 const Hero =() => {
     return (
         <section className="wpo-hero-section-1">
