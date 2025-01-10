@@ -3,9 +3,9 @@ import Link from 'next/link'
 import Clients from './client'
 import Image from 'next/image'
 
-import hero1 from '/public/images/slider/right-img2.png'
+import hero1 from '/public/images/slider/right-img2.jpg'
 import hero2 from '/public/images/slider/s.png'
-import hero3 from '/public/images/slider/right-img.png'
+import hero3 from '/public/images/slider/right-img.jpg'
 
 
 
@@ -49,7 +49,7 @@ const Hero =() => {
                                                 <i className="fi flaticon-salary"></i>
                                             </div>
                                             <div className="wpo-total-project-text">
-                                                <h3>252+</h3>
+                                                <h3>20+</h3>
                                                 <p>Total Projects</p>
                                             </div>
                                         </div>
