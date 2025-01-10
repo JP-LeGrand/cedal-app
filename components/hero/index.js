@@ -35,9 +35,6 @@ const Hero =() => {
                                     <div className="r-img">
                                         <Image src={hero1} alt=""/>
                                     </div>
-                                    <div className="wpo-happy-client">
-                                        <Clients/>
-                                    </div>
                                 </div>
                                 <div className="right-item">
                                     <div className="wpo-total-project">
