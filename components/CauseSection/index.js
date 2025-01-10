@@ -10,7 +10,7 @@ const CauseSection = (props) => {
 
     return(
 
-        <div className={`wpo-campaign-area section-padding ${props.CmClass}`}>
+        <div className={`wpo-campaign-area section-padding R{props.CmClass}`}>
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-6">
@@ -33,25 +33,24 @@ const CauseSection = (props) => {
                                     </div>
                                     <div className="wpo-campaign-content">
                                         <div className="wpo-campaign-text-top">
-                                            <h2><Link onClick={ClickHandler} href="/cause-single/[slug]" as={`/cause-single/${Cause.slug}`}>{Cause.cTitle}</Link></h2>
+                                            <h2><Link onClick={ClickHandler} href="/cause-single/[slug]" as={`/cause-single/R{Cause.slug}`}>{Cause.cTitle}</Link></h2>
                                             <div className="progress-section">
                                                 <div className="process">
                                                     <div className="progress">
-                                                        <div className="progress-bar" style={{width: `${Cause.process}%`}}>
+                                                        <div className="progress-bar" style={{width: `R{Cause.process}%`}}>
                                                             <div className="progress-value"><span>{Cause.process}</span>%</div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <ul>
-                                                <li><span>Goal:</span> ${Cause.Goal}</li>
-                                                <li><span>Raised:</span> ${Cause.Raised}</li>
+                                                <li><span>Goal:</span> R{Cause.Goal}</li>
+                                                <li><span>Raised:</span> R{Cause.Raised}</li>
                                             </ul>
                                             <div className="campaign-btn">
                                                 <ul>
                                                     <li>
-                                                        <span><Image src={Cause.authorImg} alt=""/></span>
-                                                        <span><Link onClick={ClickHandler} href="/cause-single/[slug]" as={`/cause-single/${Cause.slug}`}>{Cause.authorName}</Link></span>
+                                                        <span><Link onClick={ClickHandler} href="/cause-single/[slug]" as={`/cause-single/R{Cause.slug}`}>{Cause.authorName}</Link></span>
                                                     </li>
                                                     <li><Link onClick={ClickHandler} className="e-btn" href="/donate">Donate Now</Link></li>
                                                 </ul>
