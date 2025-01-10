@@ -32,7 +32,7 @@ const About = (props) => {
                                         </div>
                                         <div className="wpo-total-raised-text">
                                             <ul>
-                                                <li>Total Raised<span>$25000</span></li>
+                                                <li>Total Raised<span>R0</span></li>
                                             </ul>
                                             <div className="progress-section">
                                                 <div className="process">
