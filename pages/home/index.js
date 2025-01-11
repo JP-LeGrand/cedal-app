@@ -9,7 +9,7 @@ import Service from '../../components/Service';
 import CtaSection from '../../components/ctaSection';
 import EventSection from '../../components/EventSection';
 import Logo from '/public/images/cedal/CedalLogo.png'
-import vimg from '/public/images/volunteer.png'
+import vimg from '/public/images/volunteer-home.jpg'
 import PartnerSection from '../../components/PartnerSection';
 
 const HomePage = (props) => {

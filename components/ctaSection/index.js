@@ -18,7 +18,7 @@ const CtaSection = (props) => {
                                 <Link href="/volunteer">Become A Volunteer</Link>
                             </div>
                             <div className="volunteer-img">
-                                <Image src={props.vImg} alt=""/>
+                                <Image src={props.vImg} alt="" width={365} height={512}/>
                             </div>
                             <div className="shape"><Image src={shape} alt=""/></div>
                         </div>

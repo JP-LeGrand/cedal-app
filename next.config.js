@@ -1,7 +1,7 @@
 module.exports = async () => {
   const nextConfig = {
     images: {
-      unoptimized: true,
+      unoptimized: false,
     },
   };
   return nextConfig;
