@@ -74,7 +74,7 @@ const Footer = (props) =>{
                         </div>
                     </div>
                     
-                    <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
+                    {/* <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                         <div className="widget instagram">
                             <div className="widget-title">
                                 <h3>Projects</h3>
@@ -91,7 +91,7 @@ const Footer = (props) =>{
                                 ))}
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
