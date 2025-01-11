@@ -33,7 +33,7 @@ const CauseSection = (props) => {
                                     </div>
                                     <div className="wpo-campaign-content">
                                         <div className="wpo-campaign-text-top">
-                                            <h2><Link onClick={ClickHandler} href="/cause-single/[slug]" as={`/cause-single/R{Cause.slug}`}>{Cause.cTitle}</Link></h2>
+                                            <h2><Link onClick={ClickHandler} href="/cause-single/[slug]" as={`/cause-single/${Cause.slug}`}>{Cause.cTitle}</Link></h2>
                                             <div className="progress-section">
                                                 <div className="process">
                                                     <div className="progress">

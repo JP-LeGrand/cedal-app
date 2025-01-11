@@ -69,7 +69,7 @@ const BlogSidebar = (props) => {
                         ))}
                     </div>
                 </div>
-                <div className="widget wpo-instagram-widget">
+                {/* <div className="widget wpo-instagram-widget">
                     <div className="widget-title">
                         <h3>Projects</h3>
                     </div>
@@ -84,8 +84,8 @@ const BlogSidebar = (props) => {
                             </li>
                         ))}
                     </ul>
-                </div>
-                <div className="widget tag-widget">
+                </div> */}
+                {/* <div className="widget tag-widget">
                     <h3>Tags</h3>
                     <ul>
                         <li><Link onClick={ClickHandler} href="/blog-single/Great-Satisfiction">Charity</Link></li>
@@ -98,7 +98,7 @@ const BlogSidebar = (props) => {
                         <li><Link onClick={ClickHandler} href="/blog-single/Great-Satisfiction">Help</Link></li>
                         <li><Link onClick={ClickHandler} href="/blog-single/Great-Satisfiction">World Pandamic</Link></li>
                     </ul>
-                </div>
+                </div> */}
                 <div className="wpo-contact-widget widget">
                         <h2>How We Can <br/> Help You!</h2>
                         <p>labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
